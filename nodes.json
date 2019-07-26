@@ -1,0 +1,12 @@
+{
+  "nodes": {
+    "splunk.example.com": {
+      ":ip": "192.168.65.103",
+      "ports": [],
+      ":memory": 2048,
+      ":os_image": "ubuntu/trusty32",
+      ":provisioner": "bash_script",
+      ":bootstrap": "postprovisioning/scripts/bootstrap_splunk.sh"
+    }
+ }
+}
