@@ -38,5 +38,4 @@ EOF
 echo "Starting Splunk"
 ./splunk start --accept-license
 
-echo "staging Splunk is available on http://localhost:8081"
-echo "prod Splunk is available on http://localhost:8082"
+echo "Splunk is avaiable on http://localhost:8081"
